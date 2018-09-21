@@ -1,1 +1,1 @@
-module "github.com/rjturek/sampler"
+module github.com/rjturek/go-phrase-util
