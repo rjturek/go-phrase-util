@@ -1,13 +1,17 @@
-package phrases
+package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/rjturek/go-phrase-util/phrase"
+)
 
-var phrase = "You can tune a piano but you can't tuna fish"
+var phrase1 = "Starbringizizzle"
 
 func GetPhrase() string {
-	return phrase
+	return phrase1
 }
 
 func main() {
 	fmt.Println(GetPhrase())
+	fmt.Println(phrase.GetPhrase())
 }
