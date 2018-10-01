@@ -1,6 +1,6 @@
 package phrase
 
-var phrase = "You can tune a piano but you can't tuna fish"
+var phrase = "Tune it like  1.2.0-SNAPSHOT"
 
 func GetPhrase() string {
 	return phrase
